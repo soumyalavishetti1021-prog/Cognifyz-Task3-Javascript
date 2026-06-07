@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Interactive Webpage</h1>
+    <!-- Dropdown -->
+    <label>Select Course:</label>
+    <select id="course">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>python</option>
+        <option>C Programming</option>
+        </select>
+    <br><br>
+    <!-- Modal Button -->
+    <button id="openBtn">Open Modal</button>
+    <!-- Modal -->
+    <div id="modal">
+        <div class="modal-content">
+            <h2>Welcome!</h2>
+            <p>This is a modal popup.</p>
+            <button id="closeBtn">Close</button>
+        </div>
+    </div>
+    <br><br>
+    <!-- Form -->
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter Name">
+        <br><br>
+        <input type="email" id="email" placeholder="Enter Email">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>
